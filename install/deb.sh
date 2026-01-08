@@ -1,10 +1,11 @@
 #!/bin/bash
 
-# sudo apt update
-#
-# sudo apt install -y zsh
-# sudo apt install -y git
-# sudo apt install -y tmux
+sudo apt update
+
+sudo apt install -y zsh
+sudo apt install -y git
+sudo apt install -y tmux
+sudo apt install -y file
 
 # rm -f /tmp/nvim.tar.gz
 # curl -fLo /tmp/nvim.tar.gz https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.tar.gz
