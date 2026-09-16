@@ -6,6 +6,10 @@ sudo apt install -y zsh
 sudo apt install -y git
 sudo apt install -y tmux
 sudo apt install -y file
+sudo apt install -y less
+sudo apt install -y dnsutils
+sudo apt install -y iproute2
+sudo apt install -y pass
 
 curl -C - -fLo /tmp/nvim.v0.12.0.tar.gz https://github.com/neovim/neovim/releases/download/v0.12.0/nvim-linux-x86_64.tar.gz
 
