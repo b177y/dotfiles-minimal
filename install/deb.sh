@@ -11,12 +11,12 @@ sudo apt install -y dnsutils
 sudo apt install -y iproute2
 sudo apt install -y pass
 
-curl -C - -fLo /tmp/nvim.v0.12.0.tar.gz https://github.com/neovim/neovim/releases/download/v0.12.0/nvim-linux-x86_64.tar.gz
+curl -C - -fLo /tmp/nvim.v0.12.5.tar.gz https://github.com/neovim/neovim/releases/download/v0.12.5/nvim-linux-x86_64.tar.gz
 
 if [ -d "/path/to/dir" ] 
 then
     echo "Neovim installation already exists, skipping install." 
 else
     mkdir -p "$HOME/.local/bin/nvim"
-    tar -C "$HOME/.local/bin/nvim" --strip-components=1 -xzf /tmp/nvim.v0.12.0.tar.gz
+    tar -C "$HOME/.local/bin/nvim" --strip-components=1 -xzf /tmp/nvim.v0.12.5.tar.gz
 fi
