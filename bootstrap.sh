@@ -15,6 +15,7 @@ fi
 if ! test -d ~/.config/nvim; then
   git clone https://github.com/b177y/astronvim_config ~/.config/nvim
   source ~/.config/zsh/.zshrc
+  # install neovim plugins
   nvim --headless +q
 fi
 
